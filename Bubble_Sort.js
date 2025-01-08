@@ -1,7 +1,7 @@
 //--------------Bubble sort-----------------------
 const array = [1,2,3,4,5];
 let temp;
-let IsSorted = false;
+let IsSort = false;
 for (let i = 0; i < array.length-1; i++)
 {
     for (let j = 0; j < array.length-i-1; j++)
@@ -11,7 +11,7 @@ for (let i = 0; i < array.length-1; i++)
             temp = a[j];
             a[j] = a[j+1];
             a[j+1] = temp;
-            IsSorted = true;
+            IsSort = true;
         }    
     }    
     if (!IsSorted)
