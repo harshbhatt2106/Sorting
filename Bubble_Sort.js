@@ -1,5 +1,5 @@
 //--------------Bubble sort-----------------------
-const array = [1,2,3,4,5];
+const array = [3,2,7,4,9];
 let temp;
 let IsSort = false;
 for (let i = 0; i < array.length-1; i++)
